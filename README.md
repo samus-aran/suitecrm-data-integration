@@ -35,37 +35,3 @@ Now that the solution is configured we can populate the Data Warehouse with data
 This script will get all the data from from SuiteCRM on the first run and with any future runs, it will get the latest changed data. This means the first run could take some time but subsequent runs will be faster depending on the volume of new data.
 Check The Data Warehouse
 Once the script above has been completed without errors you can log into MySQL to check that the SuiteCRM Data Warehouse contains data.
-# SuiteCRM Analytics
-# Prerequisites
-Linux OS (Tested with Ubuntu 18.04)
-    • Oracle Java 1.8
-    • wget
-    • curl
-    • unzip
-# Install Java
-On the commandline execute the following:
-
-    • sudo add-apt-repository ppa:webupd8team/java
-    • sudo apt-get update
-    • sudo apt-get install oracle-java8-installer
-# Download Package
-    • Download the SuiteCRM-Analytics.zip
-    • Unzip somewhere on the file system
-# Configure Installation
-    • Open the install.properties in a text editor
-    • Configure the database connection properties
-        ◦ SuiteCRM Analytics only needs connection details to the SuiteCRM Data Warehouse.
-# Run The setup
-Run the setup script to configure the server database connections and deploy the app. On the commandline execute:
-./setup-suitecrm-analytics.sh
-Once the installation has finished we can start the SuiteCRM Analytics Server. On the commandline execute:
-./start-suitecrm-analytics.sh
-You can stop the SuiteCRM Analytics server by executing:
-./stop-suitecrm-analytics.sh
-# Accessing the SuiteCRM Analytics Frontend
-    • Open a Web Browser
-    • Navigate to the host of the app on port 8080. For example:
-        ◦ http://localhost:8080
-
-The default username is admin
-The default password is password
