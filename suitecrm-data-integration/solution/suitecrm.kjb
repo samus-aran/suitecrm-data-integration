@@ -369,7 +369,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>1888</xloc>
-      <yloc>416</yloc>
+      <yloc>448</yloc>
     </entry>
     <entry>
       <name>Abort ETL Run</name>
@@ -380,7 +380,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>1568</xloc>
-      <yloc>416</yloc>
+      <yloc>448</yloc>
     </entry>
     <entry>
       <name>sendEmail - mainJobError</name>
@@ -426,7 +426,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>1728</xloc>
-      <yloc>416</yloc>
+      <yloc>448</yloc>
     </entry>
     <entry>
       <name>sendEmail  - mainJobSuccess</name>
@@ -472,7 +472,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>2048</xloc>
-      <yloc>416</yloc>
+      <yloc>448</yloc>
     </entry>
     <entry>
       <name>errorLog - F0001</name>
@@ -513,7 +513,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>1728</xloc>
-      <yloc>576</yloc>
+      <yloc>608</yloc>
     </entry>
     <entry>
       <name>PreExecution</name>
@@ -794,7 +794,7 @@ The ETL is already running!
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>448</xloc>
-      <yloc>416</yloc>
+      <yloc>448</yloc>
     </entry>
     <entry>
       <name>Lock ETL</name>

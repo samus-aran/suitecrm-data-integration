@@ -551,6 +551,10 @@ Pre Execution
           <name>F_LEAD_MANAGEMENT</name>
           <schemaname/>
         </field>
+        <field>
+          <name>CUSTOM_FIELDS</name>
+          <schemaname/>
+        </field>
       </fields>
       <parallel>N</parallel>
       <draw>Y</draw>
