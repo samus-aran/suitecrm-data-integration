@@ -548,23 +548,18 @@
   </connection>
   <order>
     <hop>
-      <from>Get Custom Table Data</from>
-      <to>Dummy (do nothing)</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Dummy (do nothing)</from>
-      <to>Update Target Table</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Update Target Table</from>
-      <to>Dummy (do nothing) 2</to>
+      <to>Error</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get Custom Table Data</from>
+      <to>Update Target Table</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>Dummy (do nothing)</name>
+    <name>Error</name>
     <type>Dummy</type>
     <description/>
     <distribute>Y</distribute>
@@ -583,7 +578,7 @@
     </remotesteps>
     <GUI>
       <xloc>320</xloc>
-      <yloc>128</yloc>
+      <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -647,39 +642,15 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
+      <xloc>320</xloc>
       <yloc>128</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Dummy (do nothing) 2</name>
-    <type>Dummy</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>512</xloc>
-      <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step_error_handling>
     <error>
       <source_step>Update Target Table</source_step>
-      <target_step>Dummy (do nothing) 2</target_step>
+      <target_step>Error</target_step>
       <is_enabled>Y</is_enabled>
       <nr_valuename/>
       <descriptions_valuename/>

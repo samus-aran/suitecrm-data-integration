@@ -368,8 +368,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1888</xloc>
-      <yloc>448</yloc>
+      <xloc>2176</xloc>
+      <yloc>128</yloc>
     </entry>
     <entry>
       <name>Abort ETL Run</name>
@@ -471,8 +471,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>2048</xloc>
-      <yloc>448</yloc>
+      <xloc>2176</xloc>
+      <yloc>288</yloc>
     </entry>
     <entry>
       <name>errorLog - F0001</name>
@@ -952,8 +952,8 @@ The ETL is already running!
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>1</nr>
-      <xloc>2048</xloc>
-      <yloc>128</yloc>
+      <xloc>1888</xloc>
+      <yloc>288</yloc>
     </entry>
   </entries>
   <hops>
